@@ -1,0 +1,53 @@
+# Questions
+
+
+
+# 1. Mention 3 key features of python programming language
+# Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+#Python has a simple syntax similar to the English language.
+#Fewer lines of codes are required 
+#Python codes can be executed as soon as it is written making prototyping can be very quick.
+
+# 2. Bring out &quot;python&quot; from the code below greeting = &quot;Welcome to Python&quot;
+greeting = "Welcome to Python"
+print (greeting)
+
+# 3. What are some of the rules for naming variables in python?
+#Rules of naming variable
+#1 Variable names can contain numbers, letter and underscore (_)
+#2 VAriables can not contain spaces
+#3 Variable can not begin with numbers
+#4 Varibles names can not be reserved words or keywords in python 
+#5 Variable names should be concise and self explanatory
+#6 avoid using letter I and uppercase O because they look similar to 1 & 0
+
+# 4. Create 2 variables. one for storing your name and thenother for storing your age. print it out to say eg. My name is wale. I am 18 years old. 
+# Where wale is your name. NB: You can use any number to represent your age
+name = "Fadeyinmi"
+age = 18
+print(f'My name is {name}. I am {age} years old')
+
+# 5. Save the first_name and last_name in a variable called full_name and print it in the terminal with space in between them words = &quot;I am here&quot;
+first_name = "Fadeyinmi"
+last_name = "Sokunbi"
+full_name = (f'{first_name} {last_name}')
+OR 
+full_name = 'Fadeyinmi Sokunbi'
+print(full_name)
+OR
+print (first_name + " 'I am here' " +last_name)
+
+print(full_name)
+# 6. print out the word in reverse to read &quot;here am I&quot;
+words= 'i am here'
+words[::-1]
+
+# 7. What are python data types
+#Data Types
+#strings
+#numbers
+#boolean
+#list
+#dictionary
+#turple
+#set
